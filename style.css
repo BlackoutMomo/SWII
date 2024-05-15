@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    background-color: #809bb6;
+}
+
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+input {
+    border-radius: 5px;
+}
+
+
+
+.opcoes-login{
+    display: flex;
+    font-size: large;
+    padding: 0px 40px 0px 40px;
+}
+
+
+.opcoes-login label{
+    margin-left: 11px;
+
+}
+
+
+.opcoes-login span:hover{
+    color: #809bb6;
+    
+}
+.opcoes-login input{
+    margin-left: 11px;
+}
+
+.login {
+    background-color: #eede9c;
+    width: 350px;
+    height: 250px;
+    border: solid black 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+}
