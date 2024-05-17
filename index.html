@@ -12,6 +12,8 @@
     <div class="conteiner">
         <h1>Faça seu login</h1>
         <form class="login">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="usuario">
             <label for="email">Email</label>
             <input type="text" id="email" name="email">
             <label for="senha">Senha</label>
@@ -21,10 +23,10 @@
             <label for="lembrar">Lembrar login</label>
             <input type="checkbox" name="lembrar" id="lembrar">
             </div>
-            <input type="submit" style = "height: 30px;width: 50px;border-radius: 4px;">Entrar</button>
-            <div class="resposta"></div>
+            <input type="button" value="Enviar"style = "height: 30px;width: 50px;border-radius: 4px;" onclick="Entrar()" >
+            <div id="resposta"></div>
         </form>
     </div>
 </body>
-
+<script src="app.js"></script>
 </html>
