@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function paginaCadastro(){
+            window.location.href = "Cadastro.html"
+        }
+    </script>
 </head>
 
 <body>
@@ -19,12 +24,16 @@
             <label for="senha">Senha</label>
             <input type="text" id="senha" name="senha">
             <div class="opcoes-login">
-            <u><span> esqueceu a senha?</span></u>
+            <u><span>esqueceu a senha?</span></u>
             <label for="lembrar">Lembrar login</label>
             <input type="checkbox" name="lembrar" id="lembrar">
             </div>
-            <input type="button" value="Enviar"style = "height: 30px;width: 50px;border-radius: 4px;" onclick="Entrar()" >
+            <div class="opcoes-entrar">
+            <input type="button" value="Enviar" style = "height: 30px;width: 50px;border-radius: 4px;" onclick="Entrar()" >
+            <input type="button" style = "height: 30px;width: 65px;border-radius: 4px;" value="Cadastrar" onclick="paginaCadastro()">
+            </div>
             <div id="resposta"></div>
+            
         </form>
     </div>
 </body>

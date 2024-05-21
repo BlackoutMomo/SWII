@@ -9,7 +9,7 @@ function Entrar(){
     usuarios.set("email", "gabriel")
     usuarios.set("senha", "barbosa")
 
-    if (usuarios.has("Sergio")){
+    if (usuarios.has("Sergio") == true){
         resp.innerHTML("tem esse cadastro")
     }
 

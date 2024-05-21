@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <h1>Faça seu login</h1>
+        <form class="login">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="usuario">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <label for="email"> Confirme o Email</label>
+            <input type="text" id="email" name="email">
+            <label for="CPF">CPF</label>
+            <input type="text" id="CPF" name="CPF">
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" id="nascimento" name="nascimenti">
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" name="senha">
+            <label for="senha"> Confirmar Senha</label>
+            <input type="text" id="senha" name="senha">
+            <div class="opcoes-login">
+            <u><span>esqueceu a senha?</span></u>
+            <label for="lembrar">Lembrar login</label>
+            <input type="checkbox" name="lembrar" id="lembrar">
+            </div>
+            <div class="opcoes-entrar">
+            <input type="button" style = "height: 30px;width: 65px;border-radius: 4px;" value="Cadastrar">
+            </div>
+            <div id="resposta"></div>
+            
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

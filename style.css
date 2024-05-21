@@ -48,7 +48,7 @@ input {
 .login {
     background-color: #eede9c;
     width: 350px;
-    height: 250px;
+    height: fit-content;
     border: solid black 3px;
     border-radius: 20px;
     display: flex;
@@ -57,5 +57,6 @@ input {
     align-items: center;
     margin-top: 20px;
     justify-content: space-evenly;
+    
 
 }
