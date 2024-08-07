@@ -1,1 +1,61 @@
+
 /* importa a fonte  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", cursive;
+}
+
+body{
+    text-align: center;
+    background-color: #809bb6;
+    background-image: linear-gradient(0deg, #809bb6 0%, #2af598 100%); /*aplica um gradiente linear no fundo da tela */
+    min-height: 100vh; /*define a altura minima como 100% da altura da viewport */
+}
+
+main{
+    display:inline-block;
+    margin-top:2%;
+    padding: 15px;
+    position:relative;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 800px; 
+}
+
+.pokemon__image{
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    bottom:50%;
+    left: 27%;
+    transform: translate(-63%, 20%);
+}
+
+.pokemon__data{
+    position: absolute;
+    font-weight: 600;
+    color: #fff;
+    top:54.2%;
+    right: 60%;
+    font-size: clamp(8px, 2vw, 16px); /*define o tamanho da fonte de forma responsiva*/
+    align-items:center;
+}
+
+.form{
+    position: absolute;
+    width:65%;
+    top: 73%;
+    left: 42.5%;
+    z-index: 5; /*define a ordem de empilhamento*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
