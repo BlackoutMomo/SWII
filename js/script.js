@@ -3,7 +3,7 @@ const pokemonName = document.querySelector('.pokemon__name');
 const pokemonNumber = document.querySelector(".pokemon__number");
 const pokemonImage = document.querySelector(".pokemon__image");
 const pokemonHeight = document.querySelector('.pokemon__height');
-const pokemonWeight = document.querySelector('.pokemon_weight');
+const pokemonWeight = document.querySelector('.pokemon__weight');
 
 const form = document.querySelector('.form');
 const input = document.querySelector(".input__search");
