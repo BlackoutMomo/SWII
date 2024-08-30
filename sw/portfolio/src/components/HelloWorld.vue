@@ -1,4 +1,4 @@
-<template>
+ @<template>
   <div class="hello">
     <h1>RECEBAAAAAAAAA</h1>
   </div>
@@ -25,5 +25,5 @@ li {
   margin: 0 10px;}
 a {
   color: #42b983;}
-  
+
 </style>
