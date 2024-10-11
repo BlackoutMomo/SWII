@@ -5,7 +5,7 @@
 ## Funcionalidades
 
 - **Pesquisa por Nome ou Número**: Encontre Pokémon digitando seu nome ou número na Pokédex.
-- **Informações Detalhadas**: Visualize detalhes como tipo, habilidades e estatísticas de cada Pokémon.
+- **Informações Detalhadas**: Visualize detalhes e estatísticas de cada Pokémon.
 - **Interface Intuitiva**: Navegação fácil e design responsivo.
 
 ## Tecnologias Utilizadas
