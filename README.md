@@ -12,7 +12,6 @@
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PokeAPI, JavaScript
-- **Gerenciamento de Estado**: Redux
 
 ## Links
 
